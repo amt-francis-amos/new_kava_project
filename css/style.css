@@ -48,16 +48,6 @@ img {
 
 
 
-
-
-
-
-
-
-
-
-
-
 .navbar .nav-link{
      font-size:17px;
      font-weight:600;
@@ -72,7 +62,7 @@ img {
  }
 
  .btn {
-  padding: 9px 40px;
+  padding: 8px 40px;
 }
 
 .btn-primary{
@@ -133,15 +123,30 @@ img {
 
   .hero-text p{
      margin-top:2em;
-     max-width:500px;
-     font-size:20px;
+     max-width:425px;
+     font-size:17px;
   }
 
   .hero-text p span{
      font-weight:600;
   }
 
+.btn-brand{
+   width:255px;
+   height:45px;
+   display:block;
+  background:var(--color-secondary);
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 1em;
+  border-radius:5px;
+}
 
+span img{
+  width:40px;
+}
 
 
 
@@ -155,7 +160,7 @@ img {
   @media (max-width: 768px) {
 
     .hero-text h1::after {
-      width:280px;
+      width:269px;
       height:20px;
       top:25px;
       left: 1px; 
@@ -170,6 +175,6 @@ img {
 
     .hero-image img{
       width:100%;
-      padding:20px;
+      padding:1em;
     }
   }
