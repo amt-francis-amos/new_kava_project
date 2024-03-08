@@ -273,9 +273,9 @@ main::before {
     }
    
     .hero-text h1::after {
-      width:240px;
-      height:20px;
-      top:25px;
+      width:210px;
+      height:15px;
+      top:19px;
       left: 1px;
      
 
@@ -315,12 +315,10 @@ main::before {
         padding:0 10px;
       }
   
-      .site-logo img{
-        width:190px;
-      }
+      
   
       .hero-text h1{
-          font-size:1.2em;
+          font-size:1.7em;
       }
   
   
