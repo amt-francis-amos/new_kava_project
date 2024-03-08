@@ -89,7 +89,6 @@ img {
 
 
 
-
   /* --- Main Section----- */
 
   .hero-text{
@@ -174,14 +173,29 @@ span img{
   @media (max-width: 768px) {
 
     header{
-      padding:0 1em;
+       padding:0 10px;
     }
 
+
+    
+.site-logo img{
+   width:120px;
+}
+
+    .btn{
+      width:120px;
+    }
+
+    .search{
+      margin-right:-1em;
+    }
+   
     .hero-text h1::after {
-      width:269px;
+      width:240px;
       height:20px;
       top:25px;
-      left: 1px; 
+      left: 1px;
+     
 
     }
 
