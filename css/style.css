@@ -219,3 +219,25 @@ span img{
 
     
   }
+
+  @media (max-width:870px) {
+    header{
+     
+      padding:0 10px;
+    }
+
+    .site-logo img{
+      width:190px;
+    }
+
+    .hero-text h1{
+        font-size:1.2em;
+    }
+
+
+    .hero-text p{
+      width:350px;
+    }
+
+
+  }
