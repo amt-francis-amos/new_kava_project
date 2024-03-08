@@ -326,6 +326,27 @@ main::before {
         width:350px;
       }
   
+
+
+
+
+      header::before{
+        
+        z-index: -100;
+        left:0%;
+        width:59%;
+        height: 100vh;
+       
+    }
+    
+    header::after{
+        right:10px;
+        width:32%;
+        top:0;
+        height:85vh;
+       
+    }
+    
   }
 
   
