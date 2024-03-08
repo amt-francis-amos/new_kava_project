@@ -80,15 +80,11 @@ header::after{
     object-fit: cover;
 }
 
-
-
-
-
-
 .navbar .nav-link{
      font-size:17px;
      font-weight:600;
      margin:0 10px;
+     color:var(--color-secondary-dark);
 }
 
 
@@ -149,6 +145,7 @@ header::after{
 
   .hero-text h1{
     font-weight:700;
+    color:var(--color-secondary-dark);
   }
 
 
