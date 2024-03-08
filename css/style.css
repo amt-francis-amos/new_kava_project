@@ -1,0 +1,175 @@
+/* ---Global fonts----- */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* ---- RESET--- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+}
+
+body {
+  overflow-x: hidden;
+  background:#fff;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.4s ease;
+  font-weight: 500;
+  list-style: none;
+  color:var(--color-primary-lighter);
+}
+
+
+
+img {
+  width: 100%;
+}
+
+/* --- Global Variables--- */
+:root {
+  --color-primary: #e4052d;
+  --color-primary-lighter: rgba(46, 29, 156, 0.03);
+  --color-secondary: #2e1d9c;
+  --color-secondary-dark: #1c144f;
+  --color-secondary-light: rgba(46, 29, 156, 0.3);
+}
+
+
+
+
+
+/* -----Navbar----- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar .nav-link{
+     font-size:17px;
+     font-weight:600;
+     margin:0 10px;
+}
+
+
+ .search{
+    width:18px;
+    margin-left:1em;
+  
+ }
+
+ .btn {
+  padding: 9px 40px;
+}
+
+.btn-primary{
+  background: var(--color-primary);
+  color: #fff;
+  border-color: #e4052d;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background: #a70422;
+}
+
+
+
+
+  /* --- Main Section----- */
+
+  .hero-text{
+    margin-top:7em;
+    position:relative;
+  }
+
+  .hero-image{
+    position:relative;
+  }
+
+  .hero-image::before{
+    content: "";
+    position: absolute;
+    background-image: url("../images/dots-block-blue.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+    width:60%; 
+    height: 100%;
+    top: 6.3%;
+    left:-6.5%
+  }
+ 
+
+  .hero-text h1{
+    font-weight:700;
+  }
+
+
+  .hero-text h1::after {
+    content: "";
+    width:366px;
+    height: 25px;
+    display: block;
+    background: #efcacc;
+    position: absolute;
+    top: 35px;
+    left: 1px; 
+    z-index: -1;
+  }
+
+  .hero-text p{
+     margin-top:2em;
+     max-width:500px;
+     font-size:20px;
+  }
+
+  .hero-text p span{
+     font-weight:600;
+  }
+
+
+
+
+
+  .client-img{
+    width:100%;
+    max-width:180px;
+  }
+
+
+
+  @media (max-width: 768px) {
+
+    .hero-text h1::after {
+      width:280px;
+      height:20px;
+      top:25px;
+      left: 1px; 
+
+    }
+
+    .hero-image::before {
+      width: 70%; 
+      left:-5.5%;
+      top:12%;
+    }
+
+    .hero-image img{
+      width:100%;
+      padding:20px;
+    }
+  }
