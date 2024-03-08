@@ -254,16 +254,14 @@ main::before {
 /* ----------- MEDIA QUERY --------------- */
 
 
-  @media (max-width: 875px) {
-
-    header{
-       padding:0 10px;
-    }
-
+  @media (max-width: 990px) {
 
     
-.site-logo img{
+
+    
+.site-logo a img{
    width:120px;
+  
 }
 
     .btn{
