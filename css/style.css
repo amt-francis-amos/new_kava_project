@@ -167,7 +167,60 @@ span img{
 
 
 
+main::after {
+  content: "";
+  position: absolute;
+  background-image: url("../images/top-shape.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+  left: -30px;
+  top:1%;
+  width: 11%;
+  height: 30vh;
+  object-fit: cover;
+}
 
+
+main::before {
+    content: "";
+    position: absolute;
+    background-image: url("../images/dots-block-red-big.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1;
+    left: -20px;
+    top:1%;
+    width: 8.5%;
+    height: 32vh;
+    object-fit: cover;
+   
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------- MEDIA QUERY --------------- */
 
 
   @media (max-width: 768px) {
