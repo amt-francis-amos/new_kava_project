@@ -1,37 +1,6 @@
 /* ---Global fonts----- */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-/* ---- RESET--- */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-  line-height: 1.7;
-}
-
-body {
-  overflow-x: hidden;
-  background:#fff;
-}
-
-a {
-  text-decoration: none;
-  transition: all 0.4s ease;
-  font-weight: 500;
-  list-style: none;
-  color:var(--color-primary-lighter);
-}
-
-section{
-  padding:38px 0;
-}
-
-
-
-img {
-  width: 100%;
-}
 
 /* --- Global Variables--- */
 :root {
@@ -43,10 +12,14 @@ img {
 }
 
 
-
+body {
+  overflow-x: hidden;
+  background:#fff;
+}
 
 
 /* -----Navbar----- */
+
 
 header{
   position:relative;
