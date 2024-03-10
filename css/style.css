@@ -172,9 +172,8 @@ span img{
 
 
 .clients{
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
+   display:grid;
+   grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
 }
 
 
@@ -319,9 +318,7 @@ main::before {
        
     }
 
-    .clients{
-      flex-direction:column;
-    }
+ 
     
   }
 
@@ -338,7 +335,7 @@ main::before {
 
 
      .clients{
-       flex-direction: row;
+         place-items: center;
      }
 
      .client-img img{
