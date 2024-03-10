@@ -259,10 +259,9 @@ main::before {
       height:15px;
       top:19px;
       left:15%;
-  
-  
     }
 
+    
     .hero-text p{
       font-size:12px;
     }
@@ -326,9 +325,7 @@ main::before {
   
 @media(max-width:768px){
 
-      .row{
-        margin-top:2em;
-      }
+     
 
       .hero-text h1{
          font-size:1.3rem;
@@ -343,11 +340,6 @@ main::before {
          width:100px;
      }
 
-     .hero-text h1::after{
-          width:159px;
-          top:5%;
-          left:22%;
-     }
 }
 
 
@@ -355,7 +347,7 @@ main::before {
   .hero-text h1::after{
     width:160px;
     top:7%;
-    left:22%;
+    left:25%;
   
 }
 }
