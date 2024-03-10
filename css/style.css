@@ -216,7 +216,7 @@ main::before {
 /* ----------- MEDIA QUERY --------------- */
 
 
-  @media (max-width: 992px) {
+  @media (max-width:992px) {
 
     .container{
       width:100%;
@@ -344,8 +344,18 @@ main::before {
      }
 
      .hero-text h1::after{
-          width:160px;
-          top:7%;
+          width:159px;
+          top:5%;
           left:22%;
      }
+}
+
+
+@media(max-width:600px){
+  .hero-text h1::after{
+    width:160px;
+    top:7%;
+    left:22%;
+  
+}
 }
