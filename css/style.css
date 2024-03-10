@@ -53,6 +53,15 @@ header::after{
     object-fit: cover;
 }
 
+
+
+.site-nav{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+  
+
 .navbar .nav-link{
      font-size:17px;
      font-weight:600;
@@ -63,17 +72,17 @@ header::after{
 
  .search{
     width:18px;
-    margin-left:1em;
+    
   
  }
 
+
+ .site-cta{
+    margin-left:1em;
+ }
+
  .btn {
-   width:180px;
-   height:45px;
-   display:block;
-   display:flex;
-   align-items:center;
-  justify-content:center;
+  padding:13px 40px;
   font-weight:600;
   border:none;
 }
@@ -162,6 +171,11 @@ span img{
 }
 
 
+.clients{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
 
 
 .client-img img{
@@ -202,43 +216,74 @@ main::before {
 /* ----------- MEDIA QUERY --------------- */
 
 
-  @media (max-width: 990px) {
+  @media (max-width: 992px) {
 
-    
+    .container{
+      width:100%;
+      
+    }
+
+ 
+    .site-logo a{
+      margin-left:1.6em;
+    }
+
+
+
+    .btn{
+      font-size:12px;
+      padding:10px 20px;
+    }
+
 
     
 .site-logo a img{
-   width:120px;
+   width:105px;
   
 }
 
-    .btn{
-      width:120px;
+    .search{
+      display:none;
     }
 
-    .search{
-      margin-right:-1em;
+
+    .hero-text{
+      padding:0 30px;
+      margin:auto;
+      text-align: center;
     }
+
    
     .hero-text h1::after {
       width:210px;
       height:15px;
       top:19px;
-      left: 1px;
-     
+      left:15%;
+  
+  
+    }
 
+    .hero-text p{
+      font-size:12px;
+    }
+
+
+    .btn-1{
+      margin:auto;
     }
 
 
     .hero-image{
       margin-top:2em;
+      padding:0 39px;
+
     }
     
 
     .hero-image::before {
-      width: 70%; 
-      left:-5.5%;
-      top:12%;
+      width:50%; 
+      left:10%;
+      top:15%;
     }
 
     .hero-image img{
@@ -258,31 +303,10 @@ main::before {
        
       }
     
-      header{
-     
-        padding:0 10px;
-      }
-  
-      
-  
-      .hero-text h1{
-          font-size:1.7em;
-      }
-  
-  
-      .hero-text p{
-        width:350px;
-      }
-  
-
-
-
-
       header::before{
-        
         z-index: -100;
-        left:0%;
-        width:59%;
+        left:40%;
+        width:80%;
         height: 100vh;
        
     }
@@ -294,7 +318,36 @@ main::before {
         height:85vh;
        
     }
+
+    .clients{
+      flex-direction:column;
+    }
     
   }
 
   
+@media(max-width:768px){
+
+      .row{
+        margin-top:2em;
+      }
+
+      .hero-text h1{
+         font-size:1.3rem;
+      }
+
+
+     .clients{
+       flex-direction: row;
+     }
+
+     .client-img img{
+         width:100px;
+     }
+
+     .hero-text h1::after{
+          width:160px;
+          top:7%;
+          left:22%;
+     }
+}
