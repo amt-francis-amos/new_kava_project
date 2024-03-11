@@ -358,15 +358,12 @@ main::before {
          width:100px;
      }
 
+     .hero-text h1::after{
+      width:125px;
+      height:10px;
+      top:5%;
+      left:28%;
+
 }
 
-
-@media(max-width:600px){
-  .hero-text h1::after{
-    width:120px;
-    height:10px;
-    top:5%;
-    left:29%;
-  
-}
 }
