@@ -17,8 +17,9 @@
   --fw-bold:600;
   --fw-bolder:700;
   
-  --fs-400:1.1rem;
-  --fs-500:1.25rem;
+  --fs-200:1.25;
+  --fs-300:0.75rem;
+  --fs-400:1.0625rem;
   --fs-600:1.625rem;
   --fs-900:2.5rem;
 }
@@ -158,11 +159,11 @@ header::after{
   .hero-text p{
      margin-top:2em;
      max-width:425px;
-     font-size:17px;
+     font-size:var(--fs-400);
   }
 
   .hero-text p span{
-     font-weight:600;
+     font-weight:var(--fw-bold);
   }
 
 .btn-brand{
@@ -243,7 +244,7 @@ main::before {
 
 
     .btn{
-      font-size:12px;
+      font-size:var(--fs-300);
       padding:10px 20px;
     }
 
@@ -275,7 +276,7 @@ main::before {
 
     
     .hero-text p{
-      font-size:12px;
+      font-size:var(--fs-300);
     }
 
 
@@ -340,7 +341,7 @@ main::before {
      
 
       .hero-text h1{
-         font-size:1.3rem;
+         font-size:var(--fs-200);
       }
 
 
