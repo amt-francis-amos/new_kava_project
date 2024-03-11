@@ -67,6 +67,11 @@ header::after{
 }
 
 
+.container{
+  max-width:1300px;
+}
+
+
 
 .site-nav{
   display:flex;
@@ -358,9 +363,10 @@ main::before {
 
 @media(max-width:600px){
   .hero-text h1::after{
-    width:160px;
-    top:7%;
-    left:25%;
+    width:120px;
+    height:10px;
+    top:5%;
+    left:29%;
   
 }
 }
